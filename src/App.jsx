@@ -85,9 +85,36 @@ function App() {
               </div>
             </div>
             <div className="gt-bottom">
-              <div className="tam_nhin"></div>
-              <div className="su_menh"></div>
-              <div className="cot_loi"></div>
+              <div className="tam_nhin gt_active">
+                <div className="tn_container">
+                  <h4>Tầm nhìn</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                </div>
+              </div>
+              <div className="su_menh">
+                <div className="tn_container">
+                  <h4>Tầm nhìn</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                </div>
+              </div>
+              <div className="cot_loi">
+                <div className="tn_container">
+                  <h4>Tầm nhìn</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
