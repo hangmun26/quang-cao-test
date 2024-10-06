@@ -121,7 +121,13 @@ function App() {
         <div className="lich_su_hanh_trinh">
           <div className="ov-container ls_mota">
             <h1>Lich su hinh thanh</h1>
-            <p>hon 20 nam ...</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+            </p>
           </div>
           <div className="ls_nam">
             <Slider />
@@ -163,15 +169,6 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="doi_ngu_nhan_su">
-        <div className="ns_content">
-          <h1>Đội ngũ nhân sự</h1>
-          <p>Với một đội ngũ nhân sự tài năng</p>
-        </div>
-
-        <div className="ns_name"></div>
       </div>
     </div>
   );
