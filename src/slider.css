@@ -1,0 +1,108 @@
+.slider {
+  /* background-color: rgb(82, 107, 186); */
+  width: 100%;
+  height: 300px;
+  z-index: 10;
+}
+
+.timeline-container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 40px 0;
+}
+
+.timeline-bar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ffc107;
+  /* z-index: -1; */
+  transform: translateY(-50%);
+}
+.timeline ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  position: relative; /* Để đảm bảo các phần tử con có thể định vị dựa trên timeline */
+}
+
+.timeline ul li {
+  position: relative;
+}
+
+.year {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #ffc107;
+  color: #333;
+  /* border-radius: 50%; */
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.year.active {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ffc107;
+}
+
+.year:hover {
+  background-color: #ffd54f;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.timeline-content {
+  /* background-color: #6f6e6e; */
+  color: #333;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+
+.text-content {
+  width: 400px;
+  height: 300px;
+  padding: 60px 20px 60px 20px;
+  background-color: #fdfdfd;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.text-content ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.text-content ul li {
+  margin: 10px 0;
+  color: #333;
+  font-size: 12px;
+}
