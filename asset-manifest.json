@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quang-cao-test/static/css/main.5277514d.css",
+    "main.js": "/quang-cao-test/static/js/main.7e59f9f5.js",
+    "static/js/453.033808ab.chunk.js": "/quang-cao-test/static/js/453.033808ab.chunk.js",
+    "index.html": "/quang-cao-test/index.html",
+    "main.5277514d.css.map": "/quang-cao-test/static/css/main.5277514d.css.map",
+    "main.7e59f9f5.js.map": "/quang-cao-test/static/js/main.7e59f9f5.js.map",
+    "453.033808ab.chunk.js.map": "/quang-cao-test/static/js/453.033808ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5277514d.css",
+    "static/js/main.7e59f9f5.js"
+  ]
+}
