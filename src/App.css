@@ -6,35 +6,43 @@
 }
 
 .container {
-  background-color: #1286a3;
   width: 100vw;
   height: auto;
   position: relative;
+  background-color: #373a3b;
 }
 .top {
-  width: 600px;
+  width: 100%;
   height: 20px;
-  background-color: rgb(173, 156, 156);
   color: #fff;
   font-size: 12px;
   line-height: 20px;
-  margin: auto;
   position: relative;
 }
+.top_mota {
+  width: 600px;
+  margin: auto;
+}
 .menu {
+  background-color: #fff;
+  /* margin: 0 64px 0 64px; */
+}
+
+.m_container {
   height: 60px;
   width: 600px;
   margin: auto;
-
-  /* margin: 0 64px 0 64px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .menu-logo {
   width: 10%;
   height: 100%;
-  background-color: bisque;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 .menu-items {
   width: 90%;
@@ -53,7 +61,8 @@
 .ov-container {
   margin: auto;
   width: 600px;
-  height: 100%;
+  height: 800px;
+  /* height: 100%; */
 }
 .gioi_thieu {
   height: 100%;
@@ -83,13 +92,47 @@
   justify-content: space-around;
 }
 .gt-left {
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
   width: 40%;
 }
 .gt-right {
   background-color: rgb(179, 161, 91);
   width: 60%;
 }
+
+.gt-left > h2 {
+  color: #fff;
+  padding: 20px 20px 10px 10px;
+}
+.gt-left > p {
+  font-size: 10px;
+  color: #fff;
+  padding: 0px 20px 10px 10px;
+}
+
+.gt-right > h4 {
+  color: #fff;
+  padding: 20px;
+}
+.gtr_list {
+  padding: 20px;
+  font-size: 10px;
+  height: 75%;
+}
+
+.gtr_item {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.gtr_item > div > p {
+  color: #b4b2aa;
+}
+.gtr_item > div > .detail {
+  padding: 10px;
+  color: #fff;
+}
+
 .tam_nhin {
   width: 30%;
   height: 80%;
