@@ -49,7 +49,6 @@
 .overview {
   background-color: rgb(146, 142, 137);
   width: 100%;
-  height: 800px;
 }
 .ov-container {
   margin: auto;
@@ -116,4 +115,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.tt_content {
+  padding: 10px 0;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex; /* Xếp các phần tử ngang hàng */
+  align-items: center; /* Căn chỉnh các phần tử theo trục dọc */
+  justify-content: space-between;
+  border-bottom: #373a3b solid 1px;
+}
+
+.ttc_mo_ta {
+  width: 56%;
+}
+
+.tt_content img {
+  max-width: 200px; /* Đặt kích thước tối đa cho hình ảnh */
+  height: auto; /* Để đảm bảo hình ảnh giữ nguyên tỷ lệ */
+}
+
+.tt_content > p {
+  width: 60px;
+  text-align: right;
+  margin: 5px 0; /* Khoảng cách giữa các đoạn văn và hình ảnh */
+}
+
+.doi_ngu_nhan_su {
+  width: 100%;
+  height: 200px;
+  background-color: red;
 }

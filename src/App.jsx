@@ -43,11 +43,50 @@ function App() {
           <div className="ls_gioi_thieu_theo_nam"></div>
         </div>
         <div className="ov-container">
-          <div className="thanh_tuu"></div>
+          <div className="thanh_tuu">
+            <h1>Thành tựu</h1>
+
+            <div className="tt_content">
+              <div className="ttc_mo_ta">
+                <h1> Top 50</h1>
+                <p>Top 50 thương hiệu tuyển dụng</p>
+              </div>
+              <img
+                src="https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+                alt="anh tt"
+              />
+              <p>2022</p>
+            </div>
+            <div className="tt_content">
+              <div className="ttc_mo_ta">
+                <p>Top 50 thương hiệu tuyển dụng</p>
+              </div>
+              <p>2022</p>
+            </div>
+            <div className="tt_content">
+              <div className="ttc_mo_ta">
+                <p>Top 50 thương hiệu tuyển dụng</p>
+              </div>
+              <p>2022</p>
+            </div>
+            <div className="tt_content">
+              <div className="ttc_mo_ta">
+                <p>Top 50 thương hiệu tuyển dụng</p>
+              </div>
+              <p>2022</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="doi_ngu_nhan_su"></div>
+      <div className="doi_ngu_nhan_su">
+        <div className="ns_content">
+          <h1>Đội ngũ nhân sự</h1>
+          <p>Với một đội ngũ nhân sự tài năng</p>
+        </div>
+
+        <div className="ns_name"></div>
+      </div>
     </div>
   );
 }
